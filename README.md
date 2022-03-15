@@ -23,14 +23,14 @@
 - run `go test ./tests/...` (testing)
 
 ## Endpoints
-# Users
+### Users
 - FindAll Users GET `localhost:8000/users`
 - Store User POST `localhost:8000/users`
 - FindBYId User GET `localhost:8000/users/{id}`
 - DeleteById User DELETE `localhost:8000/users/{id}`
 - Update User PATCH `localhost:8000/users/{id}`
 
-# Auth
+### Auth
 - Login Users POST `localhost:8000/auth/login`
 
 Body:
